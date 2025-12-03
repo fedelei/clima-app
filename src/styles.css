@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    /* Fondo neutro con gradiente suave y movimiento sutil */
+    background: radial-gradient(circle at 20% 20%, #0f2027, #203a43, #2c5364);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Animación muy leve en el gradiente */
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+}
+
+/* Suave animación de desplazamiento del fondo */
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
