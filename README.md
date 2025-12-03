@@ -1,12 +1,8 @@
-# React + Vite
+# CLIMA APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#PROBAR APP: https://clima-fedelei.netlify.app/
 
-Currently, two official plugins are available:
+Buscador de clima en tiempo real desarrollado con ReactJS, que permite a los usuarios consultar las condiciones meteorológicas de cualquier ciudad. La interfaz es simple, rápida y fácil de usar, pensada para ofrecer una experiencia intuitiva. Además, el manejo de estado y las llamadas a la API están optimizados para brindar resultados inmediatos y precisos. Ademas posee una UI moderna con animaciones, construida con CSS puro.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
